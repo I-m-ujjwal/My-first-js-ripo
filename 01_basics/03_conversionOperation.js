@@ -36,6 +36,51 @@ console.log(typeof stringNumber);      //boolean
 
 /********************Operations************************/
 
+let value = 55
+let negValue = -value
+console.log(negValue);  //-55
+
+
+let str1 = "Ujjwal"
+let str2 = " Mishra"
+
+let str3 = str1 + str2
+console.log(str3);   // Ujjwal Mishra
+
+console.log("1" + 2);     // 12
+console.log(1 + "2");     // 12
+console.log("1" + "2");   // 12
+console.log("1" + 2 + 3); // 123
+console.log(1 + "2" + 3); // 123
+console.log(1 + 2 + "3");     // 33 ****
+console.log(1 + "2" + "3");  // 123
+
+
+let i = 5;
+
+console.log(i);    
+console.log(++i); // pre increment operator (this first increase the value than perform the other operation)
+console.log(i);
+console.log(i++) // post increment operator (Test first to perform the operation then increase the value)
+console.log(i);
+console.log(i--) // Post decrement operator (This first Perform the operation then decrease the value)
+console.log(i);
+console.log(--i); // Pre decrement operator (this first Decrease the value then perform the operation)
+
+// respectively are the outputs
+// 5
+// 6
+// 6
+// 6
+// 7
+// 7
+// 6
+// 5
+
+
+
+
+
 
 
 
